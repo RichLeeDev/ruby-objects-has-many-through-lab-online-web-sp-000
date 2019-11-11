@@ -1,6 +1,6 @@
 class Doctor
   
-  attr_accessor :name, :appointnment
+  attr_accessor :name, :appointnment, :doctor, :patient
   @@all = []
   
   def self.all 
