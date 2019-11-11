@@ -25,6 +25,6 @@ class Patient
   end
   
   def doctors
-    self.appointment.all.collect {|doctor| doctor.patient == self}
+    appointments.collect {|appointment| appointment.doctor}
   end
 end 
