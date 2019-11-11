@@ -25,6 +25,6 @@ class Patient
   end
   
   def doctors
-    appointments.select {|appointment| appointment.doctor}
+    appointments.select {|appointment| appointment.doctor == }
   end
 end 
