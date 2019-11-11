@@ -20,6 +20,10 @@ class Appointment
   end
   
   def doctor
-    
-  end 
+    @doctor
+  end
+  
+  def doctor=(doctor)
+    @doctor = doctor
+  end
 end 
